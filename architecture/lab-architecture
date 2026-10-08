@@ -1,0 +1,28 @@
+                    ┌─────────────────────────┐
+                    │     Wazuh Dashboard     │
+                    │   Alerts / Investigation│
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │      Wazuh Manager      │
+                    │  Detection / Analysis   │
+                    └────────────┬────────────┘
+                                 │
+                          Security Events
+                                 │
+                                 ▼
+              ┌──────────────────────────────────┐
+              │          Windows 11 VM            │
+              │                                  │
+              │  Wazuh Agent                     │
+              │  Sysmon                          │
+              │  Windows Event Logs              │
+              │  PowerShell                      │
+              └───────────────┬──────────────────┘
+                              │
+                 ┌────────────┼────────────┐
+                 ▼            ▼            ▼
+           Authentication  PowerShell    Nmap
+           Account Changes Process       Network Activity
+           File Changes
