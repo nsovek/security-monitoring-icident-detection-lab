@@ -33,17 +33,17 @@ The lab focuses on detecting and investigating:
 
 The lab consists of a Wazuh monitoring environment connected to a Windows endpoint. Security events generated on the endpoint are collected and analyzed by Wazuh.
 
-![Lab Architecture](architecture/lab-architecture.png)
+
 
 ## Security Monitoring
 
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](screenshots/dashboard-overview.png)
+
 
 ### Windows Endpoint
 
-![Windows Agent](screenshots/windows-agent.png)
+
 
 ## Detection Scenarios
 
